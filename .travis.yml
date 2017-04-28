@@ -8,4 +8,4 @@ branches:
  - master
  
 script:
-  xcodebuild clean build test -project Password\ Update.xcodeproj -scheme Password\ UpdateTests
+  xcodebuild clean build test -project Password\ Update.xcodeproj -scheme Password\ Update
