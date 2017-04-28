@@ -25,6 +25,7 @@
 		C33355261EAD5C290017D890 /* KeychainControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33355251EAD5C290017D890 /* KeychainControllerTests.swift */; };
 		C352AC721EB1CDF500939C4C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352AC711EB1CDF500939C4C /* StringExtension.swift */; };
 		C3E1957B1EB1E0AE006639E5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352AC711EB1CDF500939C4C /* StringExtension.swift */; };
+		C3FECFEF1EB3D4C300BA27E0 /* VibrantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FECFEE1EB3D4C300BA27E0 /* VibrantView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C33355191EAD18F40017D890 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		C33355251EAD5C290017D890 /* KeychainControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainControllerTests.swift; sourceTree = "<group>"; };
 		C352AC711EB1CDF500939C4C /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		C3FECFEE1EB3D4C300BA27E0 /* VibrantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibrantView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				C306FAFD1EAD0401004D8420 /* PasswordUpdate.swift */,
 				C33355191EAD18F40017D890 /* Utils.swift */,
 				C352AC711EB1CDF500939C4C /* StringExtension.swift */,
+				C3FECFEE1EB3D4C300BA27E0 /* VibrantView.swift */,
 			);
 			path = "Password Update";
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				C306FAFE1EAD0401004D8420 /* PasswordUpdate.swift in Sources */,
 				C352AC721EB1CDF500939C4C /* StringExtension.swift in Sources */,
 				C3267EB51EAD6FB200E1DA79 /* KeychainController.swift in Sources */,
+				C3FECFEF1EB3D4C300BA27E0 /* VibrantView.swift in Sources */,
 				C306FAE01EACF640004D8420 /* ViewController.swift in Sources */,
 				C306FADE1EACF640004D8420 /* AppDelegate.swift in Sources */,
 			);

@@ -1,0 +1,11 @@
+osx_image: xcode8.3
+xcode_sdk: macosx10.12
+language: objective-c
+xcode_project: Password\ Update.xcodeproj
+
+branches:
+ only:
+ - master
+ 
+script:
+  xcodebuild clean build test -project Password\ Update.xcodeproj -scheme Password\ Update CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
