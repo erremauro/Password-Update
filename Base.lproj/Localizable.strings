@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Password Update
+
+  Created by Roberto Mauro on 4/23/17.
+  Copyright © 2017 roberto mauro. All rights reserved.
+*/
+
+ACCOUNT_NOT_FOUND="Specified account cannot be found";
+CHARACTERS="characters";
+FIELD_REQUIRED="Required field";
+FIELD_MIN_LEN_REQUIRED="Field must at least";
+PASSWORD_UPDATE_SUCCESS="Password updated";
+PASSWORD_UPDATE_FAILURE="Unable to update password";
+PASSWORDS_DONT_MATCH_TITLE="Passwords doesn't match";
+PASSWORDS_DONT_MATCH_DESCRIPTION="Password does not match the confirm password";

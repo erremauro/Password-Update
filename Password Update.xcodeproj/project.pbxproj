@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C306FADE1EACF640004D8420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306FADD1EACF640004D8420 /* AppDelegate.swift */; };
+		C306FAE01EACF640004D8420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306FADF1EACF640004D8420 /* ViewController.swift */; };
+		C306FAE21EACF640004D8420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C306FAE11EACF640004D8420 /* Assets.xcassets */; };
+		C306FAE51EACF640004D8420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C306FAE31EACF640004D8420 /* Main.storyboard */; };
+		C306FAF01EACF640004D8420 /* Password_UpdateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306FAEF1EACF640004D8420 /* Password_UpdateTests.swift */; };
+		C306FAFC1EACF8D2004D8420 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306FAFB1EACF8D2004D8420 /* ConsoleLogger.swift */; };
+		C306FAFE1EAD0401004D8420 /* PasswordUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306FAFD1EAD0401004D8420 /* PasswordUpdate.swift */; };
+		C306FB011EAD0B78004D8420 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C306FB031EAD0B78004D8420 /* Localizable.strings */; };
+		C306FB061EAD10B1004D8420 /* PasswordUpdateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306FB051EAD10B1004D8420 /* PasswordUpdateTests.swift */; };
+		C306FB071EAD11E7004D8420 /* PasswordUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306FAFD1EAD0401004D8420 /* PasswordUpdate.swift */; };
+		C306FB081EAD12FD004D8420 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C306FAFB1EACF8D2004D8420 /* ConsoleLogger.swift */; };
+		C3267EB51EAD6FB200E1DA79 /* KeychainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3267EB41EAD6FB200E1DA79 /* KeychainController.swift */; };
+		C3267EB61EAD6FB200E1DA79 /* KeychainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3267EB41EAD6FB200E1DA79 /* KeychainController.swift */; };
+		C333551A1EAD18F40017D890 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33355191EAD18F40017D890 /* Utils.swift */; };
+		C333551B1EAD18F40017D890 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33355191EAD18F40017D890 /* Utils.swift */; };
+		C33355261EAD5C290017D890 /* KeychainControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33355251EAD5C290017D890 /* KeychainControllerTests.swift */; };
+		C352AC721EB1CDF500939C4C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352AC711EB1CDF500939C4C /* StringExtension.swift */; };
+		C3E1957B1EB1E0AE006639E5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352AC711EB1CDF500939C4C /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C306FAEC1EACF640004D8420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C306FAD21EACF640004D8420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C306FAD91EACF640004D8420;
+			remoteInfo = "Password Update";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C306FADA1EACF640004D8420 /* Password Update.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Update.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C306FADD1EACF640004D8420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C306FADF1EACF640004D8420 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C306FAE11EACF640004D8420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C306FAE41EACF640004D8420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C306FAE61EACF640004D8420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C306FAEB1EACF640004D8420 /* Password UpdateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password UpdateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C306FAEF1EACF640004D8420 /* Password_UpdateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_UpdateTests.swift; sourceTree = "<group>"; };
+		C306FAF11EACF640004D8420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C306FAFB1EACF8D2004D8420 /* ConsoleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleLogger.swift; sourceTree = "<group>"; };
+		C306FAFD1EAD0401004D8420 /* PasswordUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordUpdate.swift; sourceTree = "<group>"; };
+		C306FB021EAD0B78004D8420 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C306FB041EAD0BB9004D8420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C306FB051EAD10B1004D8420 /* PasswordUpdateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordUpdateTests.swift; sourceTree = "<group>"; };
+		C3267EB41EAD6FB200E1DA79 /* KeychainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainController.swift; sourceTree = "<group>"; };
+		C33355191EAD18F40017D890 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C33355251EAD5C290017D890 /* KeychainControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainControllerTests.swift; sourceTree = "<group>"; };
+		C352AC711EB1CDF500939C4C /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C306FAD71EACF640004D8420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306FAE81EACF640004D8420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C306FAD11EACF640004D8420 = {
+			isa = PBXGroup;
+			children = (
+				C306FB031EAD0B78004D8420 /* Localizable.strings */,
+				C306FADC1EACF640004D8420 /* Password Update */,
+				C306FAEE1EACF640004D8420 /* Password UpdateTests */,
+				C306FADB1EACF640004D8420 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C306FADB1EACF640004D8420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C306FADA1EACF640004D8420 /* Password Update.app */,
+				C306FAEB1EACF640004D8420 /* Password UpdateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C306FADC1EACF640004D8420 /* Password Update */ = {
+			isa = PBXGroup;
+			children = (
+				C3267EB41EAD6FB200E1DA79 /* KeychainController.swift */,
+				C306FADD1EACF640004D8420 /* AppDelegate.swift */,
+				C306FADF1EACF640004D8420 /* ViewController.swift */,
+				C306FAE11EACF640004D8420 /* Assets.xcassets */,
+				C306FAE31EACF640004D8420 /* Main.storyboard */,
+				C306FAE61EACF640004D8420 /* Info.plist */,
+				C306FAFB1EACF8D2004D8420 /* ConsoleLogger.swift */,
+				C306FAFD1EAD0401004D8420 /* PasswordUpdate.swift */,
+				C33355191EAD18F40017D890 /* Utils.swift */,
+				C352AC711EB1CDF500939C4C /* StringExtension.swift */,
+			);
+			path = "Password Update";
+			sourceTree = "<group>";
+		};
+		C306FAEE1EACF640004D8420 /* Password UpdateTests */ = {
+			isa = PBXGroup;
+			children = (
+				C306FAEF1EACF640004D8420 /* Password_UpdateTests.swift */,
+				C306FAF11EACF640004D8420 /* Info.plist */,
+				C306FB051EAD10B1004D8420 /* PasswordUpdateTests.swift */,
+				C33355251EAD5C290017D890 /* KeychainControllerTests.swift */,
+			);
+			path = "Password UpdateTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C306FAD91EACF640004D8420 /* Password Update */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C306FAF41EACF640004D8420 /* Build configuration list for PBXNativeTarget "Password Update" */;
+			buildPhases = (
+				C306FAD61EACF640004D8420 /* Sources */,
+				C306FAD71EACF640004D8420 /* Frameworks */,
+				C306FAD81EACF640004D8420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password Update";
+			productName = "Password Update";
+			productReference = C306FADA1EACF640004D8420 /* Password Update.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C306FAEA1EACF640004D8420 /* Password UpdateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C306FAF71EACF640004D8420 /* Build configuration list for PBXNativeTarget "Password UpdateTests" */;
+			buildPhases = (
+				C306FAE71EACF640004D8420 /* Sources */,
+				C306FAE81EACF640004D8420 /* Frameworks */,
+				C306FAE91EACF640004D8420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C306FAED1EACF640004D8420 /* PBXTargetDependency */,
+			);
+			name = "Password UpdateTests";
+			productName = "Password UpdateTests";
+			productReference = C306FAEB1EACF640004D8420 /* Password UpdateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C306FAD21EACF640004D8420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "roberto mauro";
+				TargetAttributes = {
+					C306FAD91EACF640004D8420 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X4N4A9BYZ3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					C306FAEA1EACF640004D8420 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C306FAD91EACF640004D8420;
+					};
+				};
+			};
+			buildConfigurationList = C306FAD51EACF640004D8420 /* Build configuration list for PBXProject "Password Update" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C306FAD11EACF640004D8420;
+			productRefGroup = C306FADB1EACF640004D8420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C306FAD91EACF640004D8420 /* Password Update */,
+				C306FAEA1EACF640004D8420 /* Password UpdateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C306FAD81EACF640004D8420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C306FAE21EACF640004D8420 /* Assets.xcassets in Resources */,
+				C306FB011EAD0B78004D8420 /* Localizable.strings in Resources */,
+				C306FAE51EACF640004D8420 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306FAE91EACF640004D8420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C306FAD61EACF640004D8420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C333551A1EAD18F40017D890 /* Utils.swift in Sources */,
+				C306FAFC1EACF8D2004D8420 /* ConsoleLogger.swift in Sources */,
+				C306FAFE1EAD0401004D8420 /* PasswordUpdate.swift in Sources */,
+				C352AC721EB1CDF500939C4C /* StringExtension.swift in Sources */,
+				C3267EB51EAD6FB200E1DA79 /* KeychainController.swift in Sources */,
+				C306FAE01EACF640004D8420 /* ViewController.swift in Sources */,
+				C306FADE1EACF640004D8420 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C306FAE71EACF640004D8420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33355261EAD5C290017D890 /* KeychainControllerTests.swift in Sources */,
+				C333551B1EAD18F40017D890 /* Utils.swift in Sources */,
+				C306FAF01EACF640004D8420 /* Password_UpdateTests.swift in Sources */,
+				C306FB081EAD12FD004D8420 /* ConsoleLogger.swift in Sources */,
+				C3E1957B1EB1E0AE006639E5 /* StringExtension.swift in Sources */,
+				C3267EB61EAD6FB200E1DA79 /* KeychainController.swift in Sources */,
+				C306FB071EAD11E7004D8420 /* PasswordUpdate.swift in Sources */,
+				C306FB061EAD10B1004D8420 /* PasswordUpdateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C306FAED1EACF640004D8420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C306FAD91EACF640004D8420 /* Password Update */;
+			targetProxy = C306FAEC1EACF640004D8420 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C306FAE31EACF640004D8420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C306FAE41EACF640004D8420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C306FB031EAD0B78004D8420 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C306FB021EAD0B78004D8420 /* en */,
+				C306FB041EAD0BB9004D8420 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C306FAF21EACF640004D8420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C306FAF31EACF640004D8420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C306FAF51EACF640004D8420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X4N4A9BYZ3;
+				INFOPLIST_FILE = "Password Update/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ws.erre.Password-Update";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C306FAF61EACF640004D8420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X4N4A9BYZ3;
+				INFOPLIST_FILE = "Password Update/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ws.erre.Password-Update";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C306FAF81EACF640004D8420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Password UpdateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ws.erre.Password-UpdateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password Update.app/Contents/MacOS/Password Update";
+			};
+			name = Debug;
+		};
+		C306FAF91EACF640004D8420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Password UpdateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ws.erre.Password-UpdateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password Update.app/Contents/MacOS/Password Update";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C306FAD51EACF640004D8420 /* Build configuration list for PBXProject "Password Update" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C306FAF21EACF640004D8420 /* Debug */,
+				C306FAF31EACF640004D8420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C306FAF41EACF640004D8420 /* Build configuration list for PBXNativeTarget "Password Update" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C306FAF51EACF640004D8420 /* Debug */,
+				C306FAF61EACF640004D8420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C306FAF71EACF640004D8420 /* Build configuration list for PBXNativeTarget "Password UpdateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C306FAF81EACF640004D8420 /* Debug */,
+				C306FAF91EACF640004D8420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C306FAD21EACF640004D8420 /* Project object */;
+}
