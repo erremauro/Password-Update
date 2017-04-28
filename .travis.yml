@@ -8,4 +8,4 @@ branches:
  - master
  
 script:
-  xcodebuild clean build test -project Password\ Update.xcodeproj -scheme Password\ Update
+  xcodebuild clean build test -project Password\ Update.xcodeproj -scheme Password\ Update CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
